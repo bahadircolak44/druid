@@ -1,0 +1,12 @@
+version: "2"
+services:
+
+ druid:
+  image: druid-deneme:latest
+  container_name: druid
+  ports:
+   - "8081:8081"
+   - "8082:8082"
+   - "8090:8090"
+
+
